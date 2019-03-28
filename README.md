@@ -3,9 +3,9 @@ Source code for article
 Vasiliy Usatyuk und Ilya Vorobyev 
 Simulated Annealing Method for Construction of High-Girth QC-LDPC Codes
  41st International Conference on Telecommunications and Signal Processing (TSP) 2018, 4-6 Jule, Athens, Greece
- It construct regular and irregular QC-LDPC codes from protograph with required minimal EMD value.
+ It construct regular and irregular QC-LDPC codes with  multiple edge circulants from protograph with required minimal EMD value.
 
-Simulated annealing lifting for high girth QC-LDPC include EMD optimization of protograph, which allow to decrese error-floor (by eliminate harmfull Trapping Sets), or improve waterfall properties (by lifting of protograph with better treshold).
+Simulated annealing lifting for high girth QC-LDPC include EMD optimization of protograph, which allow to decrease error-floor (by eliminate harmful Trapping Sets), or improve waterfall properties (by lifting of protograph with better threshold).
 To use application call binary file with command:
 binary -file Your_protograph_file -circulant size_of_circulant -upGirth check_condition_up_to_cycles -emd EMD_values -seed initial_value_for_random_generator -numberOfMatrices number_of_requirement_matrix -girth girth_size
 
@@ -19,7 +19,7 @@ Proto.txt contain base matrix:
 1 0 1
 1 1 0
 
-For construction multiple edge use 2,3 intead 1. Example:
+For construction multiple edge use 2,3 instead 1. Example:
 simulatedAnnealingEMD.exe -file proto.txt -circulant 500 -upGirth 6 -emd 2 -seed 123 -numberOfMatrices 1 -girth 8
 16 6
 1 0 0 0 0 1 0 1 0 1 1 0 1 0 0 2
