@@ -26,6 +26,8 @@ simulatedAnnealingEMD.exe -file proto.txt -circulant 500 -upGirth 6 -emd 2 -seed
 1 1 0 0 0 0 0 1 1 0 0 1 0 1 1 2
 0 1 1 0 0 0 0 1 0 1 0 1 0 1 0 1
 0 0 1 1 0 0 1 0 1 0 1 0 0 1 1 1
+0 0 0 1 1 0 1 0 0 1 1 0 1 0 1 2
+0 0 0 0 1 1 1 0 1 0 0 1 1 0 0 2
 
 output:
 16	6	500
