@@ -19,7 +19,7 @@ Proto.txt contain base matrix:
 1 0 1
 1 1 0
 
-For construction multiple edge use 2,3 instead 1. Example:
+For construction multiple edge use 2,3,..., edges instead 1. Example:
 simulatedAnnealingEMD.exe -file proto.txt -circulant 500 -upGirth 6 -emd 2 -seed 123 -numberOfMatrices 1 -girth 8
 16 6
 1 0 0 0 0 1 0 1 0 1 1 0 1 0 0 2
